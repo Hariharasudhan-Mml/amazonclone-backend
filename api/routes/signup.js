@@ -37,7 +37,7 @@ router.post('/signup', async (req, res) => {
                             html: `<div>
                      <h2>We welcome you to our Platform </h2>
                     <p>click the below link link to verify your account </p>
-                     <a href=http://localhost:5000/verify/${token} >CLick here to verify</a>
+                     <a href=https://amazon-clone-by-hari.herokuapp.com/verify/${token} >CLick here to verify</a>
                      </div>`
                         })
                         if (sendMail) {
